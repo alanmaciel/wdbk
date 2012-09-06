@@ -9,9 +9,14 @@ Eventually will include the following features:
 ### Financial Tools:
 
 > Balance Sheet
+
 > Break Even Analysis
+
 > Budget
+
 > Cashflow Forecast
+
 > Example Business Financials
+
 > Profit and Loss Statement
 
