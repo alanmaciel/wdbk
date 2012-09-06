@@ -1,4 +1,10 @@
 Wdbk::Application.routes.draw do
+  get "content_pages/home"
+
+  get "content_pages/help"
+
+  get "content_pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
