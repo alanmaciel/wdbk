@@ -1,4 +1,6 @@
 Wdbk::Application.routes.draw do
+  resources :receipts
+
   get "content_pages/home"
 
   get "content_pages/help"
