@@ -13,6 +13,7 @@ gem 'ramaze'
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '0.5.5'
+  gem 'webrat'
 end
 
 # Gems used only for assets and not required
