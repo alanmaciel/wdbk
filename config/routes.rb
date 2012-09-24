@@ -1,15 +1,16 @@
 Wdbk::Application.routes.draw do
-  resources :receipts
+  root :to => 'content_pages#home'
 
-  get "content_pages/home"
+  match '/signup', to: 'users#new'
 
-  get "content_pages/help"
-
-  get "content_pages/contact"
+  match '/help',    to: 'content_pages#help'
+  match '/contact', to: 'content_pages#contact'
+  match '/about', to: 'content_pages#about'
+  match '/news', to: 'content_pages#news'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
-
+  resources :receipts
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
